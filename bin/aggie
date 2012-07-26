@@ -1,0 +1,6 @@
+#!/bin/sh
+
+basedir=`dirname "$0"`
+
+node "$basedir/node_modules/aggie/bin/aggie.js" "$@"
+
